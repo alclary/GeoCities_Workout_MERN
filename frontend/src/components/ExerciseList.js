@@ -1,5 +1,5 @@
-import React from 'react';
-import Exercise from './Exercise';
+import React from "react";
+import Exercise from "./Exercise";
 
 function ExerciseList({ exercises, onDelete, onEdit }) {
     return (
@@ -16,13 +16,14 @@ function ExerciseList({ exercises, onDelete, onEdit }) {
                 </tr>
             </thead>
             <tbody>
-                {exercises.map((exercise, i) =>
+                {exercises.map((exercise, i) => (
                     <Exercise
                         exercise={exercise}
                         key={i}
                         onDelete={onDelete}
                         onEdit={onEdit}
-                    />)}
+                    />
+                ))}
             </tbody>
         </table>
     );
