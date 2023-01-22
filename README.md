@@ -12,3 +12,10 @@ Reprehensible geocities-era UX/UI aside, this project was an initial exploration
 <br>
   
 ![Demo GIF of application](demo.gif)
+
+<br>
+
+### Credits - 
+  - Geocities pages of the 2000s
+  - [GifCities](https://gifcities.org/) - The GeoCities Animated GIF Search Engine
+  - [StackOverflow tip](https://stackoverflow.com/questions/65191293/how-to-get-an-aliased-retro-style-html-text-effect) on how to abuse `text-shadow` for intentional aliasing on fonts.
