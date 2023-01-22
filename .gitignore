@@ -1,0 +1,3 @@
+*.classfinal
+*/node_modules
+backend/.env
