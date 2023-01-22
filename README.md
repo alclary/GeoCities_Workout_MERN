@@ -1,6 +1,6 @@
 # Workout Tracking App - MERN Demo Project
 
-Intentional Geocities-era UX/UI aside, this project was an initial exploration in building an app via the MERN (MongoDB, Express, React, Node) stack. The project is split into two primary parts:
+Intentional Geocities-era UX/UI aside, this project was an initial exploration into building an app via the MERN stack (MongoDB, Express, React, Node). The project is split into two primary parts:
 
 ### Backend
   - Node application built on the Express framework. 
