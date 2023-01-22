@@ -1,48 +1,48 @@
 body {
-  color:cyan;
-  background-color: violet;
-  font-family: 'Comic Sans MS',"Comic Sans",'Courier';
-  font-size: 20px;
-  margin: none;
-  padding:1em;
-  height: 100%;
+    color: cyan;
+    background-color: violet;
+    font-family: "Comic Sans MS", "Comic Sans", "Courier";
+    font-size: 20px;
+    margin: none;
+    padding: 1em;
+    height: 100%;
 
-  /* Produce jaggies on text for 90s web feel */
-  text-shadow:
-    0 0 0px,
-    0 0 0px,
-    0 0 0px,
-    0 0 0px,
-    0 0 0px,
-    0 0 0px,
-    0 0 0px,
-    0 0 0px;
+    /* Produce jaggies on text for 00s web feel */
+    text-shadow: 0 0 0px, 0 0 0px, 0 0 0px, 0 0 0px, 0 0 0px, 0 0 0px, 0 0 0px,
+        0 0 0px;
 
+    /* Disable font smoothing for optimal viewing experience */
+    font-smooth: never !important;
+    -webkit-font-smoothing: none !important;
+    -webkit-font-smooth: never !important;
 
-  /* Disable font smoothing for optimal viewing experience */
-  font-smooth: never !important;
-  -webkit-font-smoothing: none !important;
-  -webkit-font-smooth: never !important;
-
-  background-image: url('images/starblue3.gif');
+    background-image: url("images/starblue3.gif");
 }
 
 /*  ----- Navigation ----- Override text links for navigation only.  */
 nav {
-    font-family: 'Consolas', monospace;
+    font-family: "Consolas", monospace;
     background-color: none;
     text-transform: uppercase;
-
 }
 nav a {
     margin: 10px;
     background-clip: text;
     font-size: 30px;
     font-weight: 700;
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        purple
+    );
     -webkit-background-clip: text;
 }
-nav a::before, nav a::after{
+nav a::before,
+nav a::after {
     content: " ▣ ";
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ nav a:hover {
     font-size: 50px;
     font-weight: 700;
     border: 5px dashed;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 /*  ----- Page layout blocks -----  */
@@ -72,7 +72,8 @@ main {
     width: 100%;
 }
 
-#add_page_subhead, #home_lander {
+#add_page_subhead,
+#home_lander {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -81,7 +82,7 @@ main {
 }
 
 footer {
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
     font-size: 30px;
     text-align: center;
     width: 50%;
@@ -94,17 +95,22 @@ footer {
 /*  -----  Typography  ----- */
 
 header p {
-  font-family: 'Consolas', monospace;
-  font-size: 24px;
-  font-weight: 700;
+    font-family: "Consolas", monospace;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Impact';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Impact";
 } /* Define consistant font family.*/
 h1 {
     font-size: 7rem;
-    margin: .1em;
+    margin: 0.1em;
     width: max-content;
 }
 h2 {
@@ -119,7 +125,7 @@ table {
 }
 
 thead {
-    color:darkviolet;
+    color: darkviolet;
 }
 
 tr {
@@ -127,25 +133,31 @@ tr {
 }
 
 th {
-    font-family: 'Consolas', monospace;
+    font-family: "Consolas", monospace;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 26px;
     text-align: left;
 }
-th.right, td.right {
+th.right,
+td.right {
     text-align: right;
 }
-th.center, td.center {
+th.center,
+td.center {
     text-align: center;
 }
 
 /*  ----- Form ----- */
-form, input, select, button {
-  font-family: 'Comic Sans MS',"Comic Sans",'Courier';
-  font-size: 20px;}
+form,
+input,
+select,
+button {
+    font-family: "Comic Sans MS", "Comic Sans", "Courier";
+    font-size: 20px;
+}
 label {
-  display: block;
+    display: block;
 }
 #submit {
     display: inline;
